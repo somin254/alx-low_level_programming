@@ -10,10 +10,10 @@ while (q <= 'z')
 {
 q = 'A';
 while (q <= 'Z')
-{
+}
 putchar(q);
 q++;
-}
+{
 putchar('\n');
 return (0);
 }
