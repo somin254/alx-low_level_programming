@@ -3,17 +3,22 @@
  * main - a program that prints the alphabet in lowercase
  * Return: 0
  */
+#include <stdio.h>
+
 int main(void)
 {
-char q = 'a';
-while (q <= 'z')
+char c = 'a';
+while (c <= 'z')
 {
-q = 'A';
-while (q <= 'Z')
+putchar(c);
+c++;
 }
-putchar(q);
-q++;
+c = 'A';
+while (c <= 'Z')
 {
+putchar(c);
+c++;
+}
 putchar('\n');
 return (0);
 }
