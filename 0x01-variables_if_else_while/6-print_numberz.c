@@ -1,7 +1,7 @@
 #include <stdio.h>
-
-/** main - ogram that prints all single digit numbers of base
- * Return: 0
+/**
+ * main - program that print numbers
+ * Return :0
  */
 int main(void)
 {
