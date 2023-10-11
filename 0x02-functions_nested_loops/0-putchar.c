@@ -1,3 +1,9 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+/* Add ons here */
+#endif /* MAIN_H */
 #include <stdio.h>
 #include <main.h>
 /**
