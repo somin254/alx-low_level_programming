@@ -22,7 +22,7 @@ if ((w * r) < 10)
 {
 _putchar(' ');
 }
-putchar("%d", w * r);
+printf("%d", w * r);
 }
 }
 _putchar('\n');
