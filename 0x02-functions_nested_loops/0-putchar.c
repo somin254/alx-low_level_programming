@@ -1,13 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-int _putchar(char c);
-/* Add ons here */
-#endif /* MAIN_H */
-#include <stdio.h>
 #include <main.h>
+
 /**
- * main -a program that prints putchar
+ * main - put code
  * Return: 0
  */
 int main(void)
