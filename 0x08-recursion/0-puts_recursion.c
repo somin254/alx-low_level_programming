@@ -3,18 +3,24 @@
 * _puts_recursion - main function
 *
 * @s: function parameter
-*
+* _putchar - print the out put
+* main - the main function
 * Return: Always 0.
+* @c: the parametr
 */
 void _puts_recursion(char *s)
 {
 if (*s == '\0')
 {
-_putchar('\n');
+putchar('\n');
 return;
 }
 _putchar(*s);
 _puts_recursion(s + 1);
+}
+void _putchar(char c)
+{
+_putchar(c);
 }
 int main(void)
 {
