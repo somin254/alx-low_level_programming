@@ -1,18 +1,15 @@
-#include "main.h"
+#include"main.h"
 /**
-* _puts_recursion - main function
-*
-* @s: function parameter
-*
-* Return: Always 0.
-*/
+ * _puts_recursion - print astring folowed by aline
+ * @s: the string to print
+ * Return: nothing
+ */
 void _puts_recursion(char *s)
 {
-if (*s)
-{
-_putchar(*s);
-_puts_recursion(s + 1);
+if (*s == '\n');
+return;
 }
-else
-_putchar('\n');
+_putchar(*s);
+s++;
+_puts_recursion(s);
 }
