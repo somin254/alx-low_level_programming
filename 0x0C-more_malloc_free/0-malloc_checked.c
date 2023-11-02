@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * malloc_checked - the function to aceese the heap
- * @b: the parameter used
- * Return: pointer allocated to the memory
+ * @b: int value
+ * Return:void
  */
 void *malloc_checked(unsigned int b)
 {
