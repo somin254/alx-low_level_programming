@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -13,9 +13,7 @@ size_t print_listint(const listint_t *h)
 
     while (h != NULL)
     {
-        char buffer[16];
-        int len = sprintf(buffer, "%d\n", h->n);
-        write(STDOUT_FILENO, buffer, len);
+        printf("%d\n", h->n);
         h = h->next;
         count++;
     }
